@@ -1,0 +1,15 @@
+[submodule "mellitus-vuexy-admin"]
+	path = mellitus-vuexy-admin
+	url = https://github.com/mdiazn80/mellitus-vuexy-admin.git
+[submodule "mellitus-fuse-admin"]
+	path = mellitus-fuse-admin
+	url = https://github.com/mdiazn80/mellitus-fuse-admin.git
+[submodule "mellitus-admin"]
+	path = mellitus-admin
+	url = https://github.com/mdiazn80/mellitus-admin.git
+[submodule "mellitus"]
+	path = mellitus
+	url = https://github.com/mdiazn80/mellitus.git
+[submodule "postgres-docker-compose"]
+	path = postgres-docker-compose
+	url = https://github.com/mdiazn80/postgres-docker-compose.git
