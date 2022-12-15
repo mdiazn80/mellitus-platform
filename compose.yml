@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+
+  postgres:
+    build:
+      context: ./postgres-docker-compose/postgres/
+      args:
+        POSTGRES_VERSION: ${POSTGRES_VERSION}
+    hostname: postgres
+    container_name: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    volumes: 
+      - type: volume
+        source: mellitus-postgres
+        target: /var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: mellitusdb
+      POSTGRES_USER: mellitususer
+      POSTGRES_PASSWORD: mellituspass
+    networks:
+      - mellitus-network
+
+networks:
+ mellitus-network:
+    driver: bridge
+
+volumes:
+  mellitus-postgres:
