@@ -13,3 +13,6 @@
 [submodule "postgres-docker-compose"]
 	path = postgres-docker-compose
 	url = https://github.com/mdiazn80/postgres-docker-compose.git
+[submodule "mellitus-mui-admin"]
+	path = mellitus-mui-admin
+	url = https://github.com/mdiazn80/mellitus-mui-admin.git
