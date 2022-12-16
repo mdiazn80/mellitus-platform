@@ -1,18 +1,24 @@
 [submodule "mellitus-vuexy-admin"]
 	path = mellitus-vuexy-admin
 	url = https://github.com/mdiazn80/mellitus-vuexy-admin.git
+	branch = main
 [submodule "mellitus-fuse-admin"]
 	path = mellitus-fuse-admin
 	url = https://github.com/mdiazn80/mellitus-fuse-admin.git
+	branch = main
 [submodule "mellitus-admin"]
 	path = mellitus-admin
 	url = https://github.com/mdiazn80/mellitus-admin.git
+	branch = main
 [submodule "mellitus"]
 	path = mellitus
 	url = https://github.com/mdiazn80/mellitus.git
+	branch = main
 [submodule "postgres-docker-compose"]
 	path = postgres-docker-compose
 	url = https://github.com/mdiazn80/postgres-docker-compose.git
+	branch = main
 [submodule "mellitus-mui-admin"]
 	path = mellitus-mui-admin
 	url = https://github.com/mdiazn80/mellitus-mui-admin.git
+	branch = main
