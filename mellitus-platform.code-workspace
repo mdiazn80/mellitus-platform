@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "path": "./mellitus",
+            "name": "backend"
+        },
+        {
+            "path": "./mellitus-admin",
+            "name": "frontend"
+        },
+        {
+            "path": "./mellitus-fuse-admin",
+            "name": "frontend-fuse"
+        },
+        {
+            "path": "./mellitus-mui-admin",
+            "name": "frontend-mui"
+        },
+        {
+            "path": "./mellitus-admin-vuexy",
+            "name": "frontend-vuexy"
+        },
+        {
+            "path": "./postgres-docker-compose",
+            "name": "postgres"
+        },
+        {
+            "path": ".",
+            "name": "all"
+        }
+    ],
+    "settings": {
+        
+    }
+}
