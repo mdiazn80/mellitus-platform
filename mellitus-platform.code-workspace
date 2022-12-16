@@ -5,18 +5,6 @@
             "name": "backend"
         },
         {
-            "path": "./mellitus-admin",
-            "name": "frontend"
-        },
-        {
-            "path": "./mellitus-fuse-admin",
-            "name": "frontend-fuse"
-        },
-        {
-            "path": "./mellitus-mui-admin",
-            "name": "frontend-mui"
-        },
-        {
             "path": "./mellitus-vuexy-admin",
             "name": "frontend-vuexy"
         },
@@ -30,6 +18,7 @@
         }
     ],
     "settings": {
+        "python.terminal.activateEnvironment": false
         
     }
 }
